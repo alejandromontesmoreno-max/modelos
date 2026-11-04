@@ -9,7 +9,7 @@ from pathlib import Path
 import json
 
 
-class ModeloConPersistencia:
+class ModeloConPersistenciaAjuste:
     def __init__(self):
         self.modelo = ChatOllama(model="qwen2.5:3b", temperature=0.1)
 
@@ -21,7 +21,7 @@ class ModeloConPersistencia:
         )
 
         # Máximo de mensajes recientes que se envían al modelo
-        self.max_mensajes = 10
+        self.max_mensajes = 3
 
         self.historial = self.cargar_historial()
 

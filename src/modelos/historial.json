@@ -1,0 +1,228 @@
+[
+    {
+        "type": "system",
+        "data": {
+            "content": "Eres un asistente que responde en español.",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "system",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "Hola",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "model": "qwen2.5:3b",
+                "created_at": "2026-11-04T13:41:44.122454Z",
+                "done": true,
+                "done_reason": "stop",
+                "total_duration": 44171209199,
+                "load_duration": 21969801340,
+                "prompt_eval_count": 26,
+                "prompt_eval_duration": 9970213129,
+                "eval_count": 17,
+                "eval_duration": 7582223889,
+                "logprobs": null,
+                "model_name": "qwen2.5:3b",
+                "model_provider": "ollama"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--01a1a6ca-a139-7472-b640-85f2fe265fdc-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 26,
+                "output_tokens": 17,
+                "total_tokens": 43
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "me llamo Alejandro Montes",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "¡Encantado de conocerte, Alejandro Montes! ¿Cómo puedo asistirte hoy?",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "model": "qwen2.5:3b",
+                "created_at": "2026-11-04T13:42:04.904144Z",
+                "done": true,
+                "done_reason": "stop",
+                "total_duration": 11182480768,
+                "load_duration": 161964222,
+                "prompt_eval_count": 58,
+                "prompt_eval_duration": 3449667134,
+                "eval_count": 22,
+                "eval_duration": 7538079805,
+                "logprobs": null,
+                "model_name": "qwen2.5:3b",
+                "model_provider": "ollama"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--01a1a6cb-7351-7bc3-a3a3-5688269e5e3a-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 58,
+                "output_tokens": 22,
+                "total_tokens": 80
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "Sabes como me llamo",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "Sí, ya lo sabía. Me diste ese nombre al comenzar nuestra conversación. ¿En qué puedo ayudarte con respecto a tu nombre Alejandro Montes?",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "model": "qwen2.5:3b",
+                "created_at": "2026-11-04T13:42:37.0843Z",
+                "done": true,
+                "done_reason": "stop",
+                "total_duration": 24187055366,
+                "load_duration": 801855652,
+                "prompt_eval_count": 68,
+                "prompt_eval_duration": 9105502565,
+                "eval_count": 36,
+                "eval_duration": 14276011975,
+                "logprobs": null,
+                "model_name": "qwen2.5:3b",
+                "model_provider": "ollama"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--01a1a6cb-bc4b-7023-ab2a-22040d73ce3b-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 68,
+                "output_tokens": 36,
+                "total_tokens": 104
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "Estudio Inteligencia artificial",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "¡Eso suena emocionante! Estudiar Inteligencia Artificial (IA) es un campo muy dinámico y versátil que abarca múltiples disciplinas como la matemática, la informática, la psicología y las ciencias cognitivas. ¿Te gustaría profundizar en algún aspecto específico de la IA? Por ejemplo, el aprendizaje automático, la inteligencia subjetiva o los sistemas expertos son áreas muy populares dentro del campo.\n\n¿En qué fase estás con tu estudio? Necesito más información para poder ayudarte de una manera más específica.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "model": "qwen2.5:3b",
+                "created_at": "2026-11-04T13:44:07.051972Z",
+                "done": true,
+                "done_reason": "stop",
+                "total_duration": 70541637407,
+                "load_duration": 66918280,
+                "prompt_eval_count": 82,
+                "prompt_eval_duration": 15431997829,
+                "eval_count": 132,
+                "eval_duration": 55030062034,
+                "logprobs": null,
+                "model_name": "qwen2.5:3b",
+                "model_provider": "ollama"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--01a1a6cc-68c6-77a2-ba21-aae68d3641c4-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 82,
+                "output_tokens": 132,
+                "total_tokens": 214
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "Sabes como me llamo",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "¡Claro que sé cómo te llamas! Me diste mi nombre al inicio de nuestra conversación. ¿Cómo puedo asistirte respecto a tu estudio de Inteligencia Artificial?",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "model": "qwen2.5:3b",
+                "created_at": "2026-11-04T13:45:16.800173Z",
+                "done": true,
+                "done_reason": "stop",
+                "total_duration": 42329523133,
+                "load_duration": 75304253,
+                "prompt_eval_count": 178,
+                "prompt_eval_duration": 27670237878,
+                "eval_count": 40,
+                "eval_duration": 14558006399,
+                "logprobs": null,
+                "model_name": "qwen2.5:3b",
+                "model_provider": "ollama"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--01a1a6cd-e7a4-7482-85bb-a1eb663633f7-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 178,
+                "output_tokens": 40,
+                "total_tokens": 218
+            }
+        }
+    }
+]

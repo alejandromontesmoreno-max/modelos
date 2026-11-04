@@ -8,6 +8,7 @@ from src.modelos.modelo_roles import Prompt_Roles
 from src.modelos.modelo_sinmemoria import ModeloSinMemoria
 from src.modelos.modelo_conmemoria import ModeloConMemoria
 from src.modelos.modelo_conpersistencia import ModeloConPersistencia
+from src.modelos.modelo_persistencia_ajuste import ModeloConPersistenciaAjuste
 
 import os
 from rich.console import Console
@@ -38,6 +39,7 @@ class MenuPrincipal():
         print("8. Modelo sin memoria")
         print("9. Modelo con memoria")
         print("10. Modelo con memoria y persistencia")
+        print("11. Modelo con memoria y persistencia con ajuste")
         print("0. Salir")
 
     def ejecutar_opcion(self):
@@ -104,6 +106,10 @@ class MenuPrincipal():
             elif self.opcion == "10":
                 modelo_con_persistencia = ModeloConPersistencia()
                 modelo_con_persistencia.generar_respuesta()    
+
+            elif self.opcion == "11":
+                modelo_con_persistencia_ajuste = ModeloConPersistenciaAjuste()
+                modelo_con_persistencia_ajuste.generar_respuesta()
 
             elif self.opcion == "0":
                 print("Saliendo del programa...")
